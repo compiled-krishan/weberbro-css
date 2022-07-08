@@ -7,4 +7,374 @@ Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-me
 Version: 0.0.0.1
 Requires PHP: 7.0
 */
-.btn-custom,.btn-custom:hover{background:#000;cursor:pointer}.cross,span{display:block}.btn-custom{color:#fff;border:2px solid #000;border-radius:5px;font-weight:700;font-family:Karla}.btn-custom:hover{color:#fefeff;border:2px solid #000;outline:0}body{overflow-x:hidden}body::-webkit-scrollbar{display:none}.bg-theme{background:orange}.active,.cross{background:#000;width:35px;height:3px;margin-left:auto;margin-right:auto;left:0;right:0}.navbar-mobile,.preloader{position:fixed;height:100%}orange-hover:hover{color:orange}span{transition:.4s cubic-bezier(.5,  10,  .6,  .1);cursor:pointer}.active{margin-top:4px}.cross{margin-top:0}.cross:first-of-type{-webkit-transform:rotate(45deg);transform:rotate(45deg)}.cross:nth-of-type(2){margin-top:-2px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}@media (min-width:600px){.display-mobile.toggle-bar{display:block;position:relative}}.display-mobile.toggle-bar{position:absolute;right:10px;z-index:20}.navbar-mobile{width:100%;z-index:10;background:#fefeff;margin-top:0;display:none}.navbar-mobile a{font-size:56px;font-family:'Source Serif Pro',sans-serif;font-weight:300;text-decoration:none;color:#000}@media (min-width:300px){.no-display-mobile{display:none}.hero-text{font-size:35px;color:#000;font-family:'Source Serif Pro';font-weight:700}.nav-logo{position:relative;font-size:28px}}@media (max-width:600px){.mobile-btn{width:100%}}@media (max-width:300px){.hero-illustration{width:80vw}}@media (min-width:768px){.display-mobile.toggle-bar,.navbar-mobile{display:none}.no-display-mobile{display:block}.hero-illustration{width:40vw}.hero-text{font-size:62px;font-family:'Source Serif Pro';font-weight:800;color:#000}}.newsletter,.preloader{width:100%;overflow:hidden}.preloader{background:#fff;z-index:10000}.blog-description,.blog-link{font-family:Karla;position:relative}input::placeholder{color:#000}::-moz-selection{color:#fff;background:#000}::selection{color:#fff;background:#000}.author-link:hover,.blog-link,.blog-link:hover,.trending-link:hover{color:#000}.newsletter{background-color:#ffd52c;min-height:702px}.newsletter-inp,.newsletter-p{font-size:18px;width:70%;font-family:Karla}.newsletter-p{font-weight:300}.newsletter-inp{font-weight:500;padding:15px;color:#000;border-radius:5px;outline:0;border:3px solid #000}@media (min-width:992px){.no-display-desktop{display:none}.preloader h1{font-size:44px;font-weight:700;font-style:normal;font-family:'Source Serif Pro';margin-top:25vw}.newsletter-btn{background:#000;font-family:Karla;font-size:18px;padding:15px;margin-top:10px;width:70%;border-radius:5px;border:none}}@media (max-width:400px){.newsletter{width:100%;overflow:hidden;background-color:#ffd52c;min-height:702px;text-align:center}.newsletter-btn,.newsletter-inp,.newsletter-p{font-family:Karla;font-size:18px;width:80%}.newsletter-p{font-weight:300;margin-left:auto;margin-right:auto}.newsletter-inp{font-weight:500;padding:15px;color:#000;border-radius:5px;outline:0;border:3px solid #000}.newsletter-btn{background:#000;padding:15px;margin-top:10px;border-radius:5px;border:none}}.blog-content,.blog-content figure img,.post-display{border-radius:10px}.newsletter-btn:hover{background:#000}.post-display{width:60%;background:#ff0;height:190px}.blog-link{text-decoration:none;font-weight:700;font-size:16px;top:20px}.blog-description{font-weight:300;font-size:16px;top:5px}@media(min-width:768px){.preload-logo{margin-top:25%}.blog-content h1{font-family:'Source Serif Pro';font-weight:900;font-size:56px}}.author-link,.trending-link{color:#000;text-decoration:none;font-family:Karla;font-weight:500}.author-link{font-size:15px;padding-left:5px}.trending-link{font-size:14px}@media (max-width:500px){.author-link,.blog-link{text-decoration:none;font-size:14px;font-family:Karla;color:#000}.preloader h1{font-size:44px;font-weight:700;font-style:normal;font-family:'Source Serif Pro';margin-top:80vw}.preload-logo{margin-top:80%}.post-display{width:100%;background:#ff0;height:190px;border-radius:10px;margin-left:auto;margin-right:auto}.blog-link{font-weight:700;position:relative;top:10px}@media(min-width){.container-blog{padding:32px 0}}.blog-description{font-family:Karla;font-weight:300;font-size:14px;position:relative;top:-10px}.author-link{font-weight:500;padding-left:5px}.author{position:relative;bottom:30px}}.blog-content{font-family:Karla;font-size:20px;font-weight:500}.blog-content strong{font-family:'Source Serif Pro';font-size:22px}@media(min-width:768px){.blog-content{width:70%;padding:20px;margin:auto}}@media(max-width:400px){.blog-content h1{max-width:90%;font-family:'Source Serif Pro';font-weight:900;font-size:24px;overflow:hidden}.blog-content{margin:auto;width:95%;padding:20px}.nav-logo-img{position:relative;right:80px}}.contact-form{position:relative;top:15%}.contact-form input,.contact-form input:focus{border:3px solid #000;border-radius:5px;font-weight:500;font-size:18px;outline:0}.contact-form textarea,.contact-form textarea:focus{border:3px solid #000;border-radius:5px;font-weight:500;font-size:18px}.contact-form input::placeholder{color:#000;font-size:18px;font-weight:500}.contact-form textarea::placeholder{color:#000;font-size:18px;font-weight:500}
+.btn-custom, .btn-custom:hover {
+    background: #000;
+    cursor: pointer;
+}
+.cross, span {
+    display: block;
+}
+.btn-custom {
+    color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-weight: 700;
+    font-family: Karla;
+}
+.btn-custom:hover {
+    color: #fefeff;
+    border: 2px solid #000;
+    outline: 0;
+}
+body {
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.bg-theme {
+    background: orange;
+}
+.active, .cross {
+    background: #000;
+    width: 35px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.navbar-mobile, .preloader {
+    position: fixed;
+    height: 100%}
+orange-hover:hover {
+    color: orange;
+}
+span {
+    transition: .4s cubic-bezier(.5,   10,   .6,   .1);
+    cursor: pointer;
+}
+.active {
+    margin-top: 4px;
+}
+.cross {
+    margin-top: 0;
+}
+.cross:first-of-type {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.cross:nth-of-type(2) {
+    margin-top: -2px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+@media (min-width:600px) {
+    .display-mobile.toggle-bar {
+    display: block;
+    position: relative;
+}
+}.display-mobile.toggle-bar {
+    position: absolute;
+    right: 10px;
+    z-index: 20;
+}
+.navbar-mobile {
+    width: 100%;
+    z-index: 10;
+    background: #fefeff;
+    margin-top: 0;
+    display: none;
+}
+.navbar-mobile a {
+    font-size: 56px;
+    font-family: 'Source Serif Pro', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: #000;
+}
+@media (min-width:300px) {
+    .no-display-mobile {
+    display: none;
+}
+.hero-text {
+    font-size: 35px;
+    color: #000;
+    font-family: 'Source Serif Pro';
+    font-weight: 700;
+}
+.nav-logo {
+    position: relative;
+    font-size: 28px;
+}
+}@media (max-width:600px) {
+    .mobile-btn {
+    width: 100%}
+}@media (max-width:400px) {
+    .hero-illustration {
+    width: 80vw;
+}
+}@media (min-width:768px) {
+    .display-mobile.toggle-bar, .navbar-mobile {
+    display: none;
+}
+.no-display-mobile {
+    display: block;
+}
+.hero-illustration {
+    width: 35vw;
+}
+.hero-text {
+    font-size: 62px;
+    font-family: 'Source Serif Pro';
+    font-weight: 800;
+    color: #000;
+}
+}.newsletter, .preloader {
+    width: 100%;
+    overflow: hidden;
+}
+.preloader {
+    background: #fff;
+    z-index: 10000;
+}
+.blog-description, .blog-link {
+    font-family: Karla;
+    position: relative;
+}
+input::placeholder {
+    color: #000;
+}
+::-moz-selection {
+    color: #fff;
+    background: #000;
+}
+::selection {
+    color: #fff;
+    background: #000;
+}
+.author-link:hover, .blog-link, .blog-link:hover, .trending-link:hover {
+    color: #000;
+}
+.newsletter {
+    background-color: #ffd52c;
+    min-height: 702px;
+}
+.newsletter-inp, .newsletter-p {
+    font-size: 18px;
+    width: 70%;
+    font-family: Karla;
+}
+.newsletter-p {
+    font-weight: 300;
+}
+.newsletter-inp {
+    font-weight: 500;
+    padding: 15px;
+    color: #000;
+    border-radius: 5px;
+    outline: 0;
+    border: 3px solid #000;
+}
+@media (min-width:992px) {
+    .no-display-desktop {
+    display: none;
+}
+.preloader h1 {
+    font-size: 44px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Source Serif Pro';
+    margin-top: 25vw;
+}
+.newsletter-btn {
+    background: #000;
+    font-family: Karla;
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 10px;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+}
+}@media (max-width:400px) {
+    .newsletter {
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffd52c;
+    min-height: 702px;
+    text-align: center;
+}
+.newsletter-btn, .newsletter-inp, .newsletter-p {
+    font-family: Karla;
+    font-size: 18px;
+    width: 80%}
+.newsletter-p {
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+}
+.newsletter-inp {
+    font-weight: 500;
+    padding: 15px;
+    color: #000;
+    border-radius: 5px;
+    outline: 0;
+    border: 3px solid #000;
+}
+.newsletter-btn {
+    background: #000;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+}.blog-content, .blog-content figure img, .post-display {
+    border-radius: 10px;
+}
+.newsletter-btn:hover {
+    background: #000;
+}
+.post-display {
+    width: 60%;
+    background: #ff0;
+    height: 190px;
+}
+.blog-link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    top: 20px;
+}
+.blog-description {
+    font-weight: 300;
+    font-size: 16px;
+    top: 5px;
+}
+@media(min-width:768px) {
+    .preload-logo {
+    margin-top: 25%}
+.blog-content h1 {
+    font-family: 'Source Serif Pro';
+    font-weight: 900;
+    font-size: 56px;
+}
+}.author-link, .trending-link {
+    color: #000;
+    text-decoration: none;
+    font-family: Karla;
+    font-weight: 500;
+}
+.author-link {
+    font-size: 15px;
+    padding-left: 5px;
+}
+.trending-link {
+    font-size: 14px;
+}
+@media (max-width:500px) {
+    .author-link, .blog-link {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Karla;
+    color: #000;
+}
+.preloader h1 {
+    font-size: 44px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Source Serif Pro';
+    margin-top: 80vw;
+}
+.preload-logo {
+    margin-top: 80%}
+.post-display {
+    width: 100%;
+    background: #ff0;
+    height: 190px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog-link {
+    font-weight: 700;
+    position: relative;
+    top: 10px;
+}
+@media(min-width) {
+    .container-blog {
+    padding: 32px 0;
+}
+}.blog-description {
+    font-family: Karla;
+    font-weight: 300;
+    font-size: 14px;
+    position: relative;
+    top: -10px;
+}
+.author-link {
+    font-weight: 500;
+    padding-left: 5px;
+}
+.author {
+    position: relative;
+    bottom: 30px;
+}
+}.blog-content {
+    font-family: Karla;
+    font-size: 20px;
+    font-weight: 500;
+}
+.blog-content strong {
+    font-family: 'Source Serif Pro';
+    font-size: 22px;
+}
+@media(min-width:768px) {
+    .blog-content {
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+}
+}@media(max-width:400px) {
+    .blog-content h1 {
+    max-width: 90%;
+    font-family: 'Source Serif Pro';
+    font-weight: 900;
+    font-size: 24px;
+    overflow: hidden;
+}
+.blog-content {
+    margin: auto;
+    width: 95%;
+    padding: 20px;
+}
+.nav-logo-img {
+    position: relative;
+    right: 80px;
+}
+}.contact-form {
+    position: relative;
+    top: 15%}
+.contact-form input, .contact-form input:focus {
+    border: 3px solid #000;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    outline: 0;
+}
+.contact-form textarea, .contact-form textarea:focus {
+    border: 3px solid #000;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.contact-form input::placeholder {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.contact-form textarea::placeholder {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
